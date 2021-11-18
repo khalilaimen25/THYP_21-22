@@ -1,0 +1,150 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+@prefix mo: <http://purl.org/ontology/mo#>.
+@prefix ludo-xapi: <http://ns.inria.fr/ludo/v1/xapi#Client> .
+@prefix bbc: <http://www.bbc.co.uk/ontologies/bbc/Product> .
+@prefix mexalgo: <http://mex.aksw.org/mex-algo#CART> .
+@prefix wlo: <http://purl.org/ontology/wo/Order> .
+@prefix vivo: <http://vivoweb.org/ontology/core#Review> .
+@prefix tsioc: <http://rdfs.org/sioc/types#WishList> .
+@prefix msv: <https://musicstorevocab.fr/onto/msv#> .
+
+
+<https://musicstorevocab.fr/onto/msv#> a owl:Ontology ;
+    dcterms:title "Music store" .
+
+msv:client a rdfs:Class ;
+    rdfs:label "client" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs ludo-xapi:Client;
+    vs:term_status "experimental" .    
+
+msv:user_id a rdf:Property ;
+    rdfs:label "user_id" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+msv:firstname a rdf:Property ;
+    rdfs:label "firstname" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+msv:lastname a rdf:Property ;
+    rdfs:label "lastname" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+msv:username a rdf:Property ;
+    rdfs:label "username" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+msv:email a rdf:Property ;
+    rdfs:label "email" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+msv:password a rdf:Property ;
+    rdfs:label "password" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+msv:phone a rdf:Property ;
+    rdfs:label "phone" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+msv:address a rdf:Property ;
+    rdfs:label "address" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+msv:product a rdfs:Class ;
+    rdfs:label "product" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs bbc:Product;
+    vs:term_status "experimental" . 
+
+msv:product_id a rdf:Property ;
+    rdfs:label "product_id" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+msv:name a rdf:Property ;
+    rdfs:label "name" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+msv:price a rdf:Property ;
+    rdfs:label "price" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+msv:image a rdf:Property ;
+    rdfs:label "image" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+msv:category a rdf:Property ;
+    rdfs:label "category" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .  
+
+msv:brand a rdf:Property ;
+    rdfs:label "brand" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+msv:description a rdf:Property ;
+    rdfs:label "description" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .              
+
+
+msv:cart a rdfs:Class ;
+    rdfs:label "cart" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs mexalgo:CART;
+    vs:term_status "experimental" .
+
+msv:product_quantity a rdf:Property ;
+    rdfs:label "product_quantity" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+msv:order a rdfs:Class ;
+    rdfs:label "order" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs wlo:Order;
+    vs:term_status "experimental" .
+
+msv:wish_list a rdfs:Class ;
+    rdfs:label "wish_list" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs tsioc:WishList;
+    vs:term_status "experimental" .
+
+msv:review a rdfs:Class ;
+    rdfs:label "review" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs vivo:Review;
+    vs:term_status "experimental" . 
+
+msv:review_text a rdf:Property ;
+    rdfs:label "review_text" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+msv:rating a rdf:Property ;
+    rdfs:label "rating" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+ 
