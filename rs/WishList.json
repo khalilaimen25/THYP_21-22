@@ -1,0 +1,33 @@
+{
+    "o:label": "WishList",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/musicstorevocab.fr\/onto\/msv#",
+            "vocabulary_label": "music store",
+            "local_name": "user_id",
+            "label": "user_id"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/musicstorevocab.fr\/onto\/msv#",
+            "vocabulary_label": "music store",
+            "local_name": "product_id",
+            "label": "product_id"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/musicstorevocab.fr\/onto\/msv#",
+        "vocabulary_label": "music store",
+        "local_name": "wish_list",
+        "label": "wish_list"
+    }
+}
