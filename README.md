@@ -1,8 +1,8 @@
-## API Omeka S
+## API des items Omeka S
 
-- localhost/2THYP/LDW/omeka/api/items/1
-- localhost/2THYP/LDW/omeka/api/items/2
-- localhost/2THYP/LDW/omeka/api/items/3
-- localhost/2THYP/LDW/omeka/api/items/4
-- localhost/2THYP/LDW/omeka/api/items/5
-- localhost/2THYP/LDW/omeka/api/items/6
+- Client 1 <localhost/2THYP/LDW/omeka/api/items/1>
+- Product 1 <localhost/2THYP/LDW/omeka/api/items/2>
+- Product 2 <localhost/2THYP/LDW/omeka/api/items/3>
+- Wishlist 1 <localhost/2THYP/LDW/omeka/api/items/4>
+- Cliznt 2 <localhost/2THYP/LDW/omeka/api/items/5>
+- Order 1 <localhost/2THYP/LDW/omeka/api/items/6>
