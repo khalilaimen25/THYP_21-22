@@ -1,5 +1,5 @@
 ## API EX1 index.html
-- khalilaimen25.github.io/THYP_21-22/ex1/index.html
+- https://khalilaimen25.github.io/THYP_21-22/ex1/index.html
 
 ## API des items Omeka S
 
