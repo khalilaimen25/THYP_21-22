@@ -1,0 +1,74 @@
+{
+    "@context": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api-context",
+    "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/resource_templates\/8",
+    "@type": "o:ResourceTemplate",
+    "o:id": 8,
+    "o:label": "Review",
+    "o:owner": {
+        "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/users\/1",
+        "o:id": 1
+    },
+    "o:resource_class": {
+        "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/resource_classes\/133",
+        "o:id": 133
+    },
+    "o:title_property": null,
+    "o:description_property": null,
+    "o:resource_template_property": [
+        {
+            "o:property": {
+                "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/properties\/234",
+                "o:id": 234
+            },
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:data_type": [],
+            "o:is_required": false,
+            "o:is_private": false
+        },
+        {
+            "o:property": {
+                "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/properties\/229",
+                "o:id": 229
+            },
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:data_type": [],
+            "o:is_required": false,
+            "o:is_private": false
+        },
+        {
+            "o:property": {
+                "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/properties\/242",
+                "o:id": 242
+            },
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:data_type": [],
+            "o:is_required": false,
+            "o:is_private": false
+        },
+        {
+            "o:property": {
+                "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/properties\/243",
+                "o:id": 243
+            },
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:data_type": [],
+            "o:is_required": false,
+            "o:is_private": false
+        },
+        {
+            "o:property": {
+                "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/properties\/7",
+                "o:id": 7
+            },
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:data_type": [],
+            "o:is_required": false,
+            "o:is_private": false
+        }
+    ]
+}
