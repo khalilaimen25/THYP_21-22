@@ -1,4 +1,4 @@
-## API EX1 index.html
+## liens vers les github pages
 - le trombinoscope ex1 : <https://khalilaimen25.github.io/THYP_21-22/ex1/index.html>
 - récapitulaitif omk : <https://khalilaimen25.github.io/THYP_21-22/omk/index.html>
 ## API des items Omeka S
