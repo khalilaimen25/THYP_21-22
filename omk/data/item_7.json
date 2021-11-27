@@ -1,0 +1,120 @@
+{
+    "@context": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api-context",
+    "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/items\/7",
+    "@type": [
+        "o:Item",
+        "msv:order"
+    ],
+    "o:id": 7,
+    "o:is_public": true,
+    "o:owner": {
+        "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/users\/1",
+        "o:id": 1
+    },
+    "o:resource_class": {
+        "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/resource_classes\/131",
+        "o:id": 131
+    },
+    "o:resource_template": {
+        "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/resource_templates\/5",
+        "o:id": 5
+    },
+    "o:thumbnail": null,
+    "o:title": "Order2",
+    "thumbnail_display_urls": {
+        "large": null,
+        "medium": null,
+        "square": null
+    },
+    "o:created": {
+        "@value": "2021-11-27T09:08:00+00:00",
+        "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+    },
+    "o:modified": {
+        "@value": "2021-11-27T09:10:40+00:00",
+        "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "msv:user_id": [
+        {
+            "type": "resource",
+            "property_id": 226,
+            "property_label": "user_id",
+            "is_public": true,
+            "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/items\/5",
+            "value_resource_id": 5,
+            "value_resource_name": "items",
+            "url": null,
+            "display_title": "Client2"
+        }
+    ],
+    "msv:product_id": [
+        {
+            "type": "resource",
+            "property_id": 234,
+            "property_label": "product_id",
+            "is_public": true,
+            "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/items\/3",
+            "value_resource_id": 3,
+            "value_resource_name": "items",
+            "url": null,
+            "display_title": "Product 2"
+        }
+    ],
+    "msv:product_quantity": [
+        {
+            "type": "literal",
+            "property_id": 241,
+            "property_label": "product_quantity",
+            "is_public": true,
+            "@value": "3"
+        }
+    ],
+    "msv:price": [
+        {
+            "type": "literal",
+            "property_id": 236,
+            "property_label": "price",
+            "is_public": true,
+            "@value": "388"
+        }
+    ],
+    "msv:address": [
+        {
+            "type": "literal",
+            "property_id": 233,
+            "property_label": "address",
+            "is_public": true,
+            "@value": "blablablablablabla"
+        }
+    ],
+    "msv:phone": [
+        {
+            "type": "literal",
+            "property_id": 232,
+            "property_label": "phone",
+            "is_public": true,
+            "@value": "23435345"
+        }
+    ],
+    "dcterms:date": [
+        {
+            "type": "literal",
+            "property_id": 7,
+            "property_label": "Date",
+            "is_public": true,
+            "@value": "27\/10\/2021"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "type": "literal",
+            "property_id": 1,
+            "property_label": "Title",
+            "is_public": true,
+            "@value": "Order2"
+        }
+    ]
+}

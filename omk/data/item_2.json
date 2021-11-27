@@ -1,0 +1,121 @@
+{
+    "@context": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api-context",
+    "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/items\/2",
+    "@type": [
+        "o:Item",
+        "msv:product"
+    ],
+    "o:id": 2,
+    "o:is_public": true,
+    "o:owner": {
+        "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/users\/1",
+        "o:id": 1
+    },
+    "o:resource_class": {
+        "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/resource_classes\/129",
+        "o:id": 129
+    },
+    "o:resource_template": {
+        "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/resource_templates\/3",
+        "o:id": 3
+    },
+    "o:thumbnail": null,
+    "o:title": "Product 1",
+    "thumbnail_display_urls": {
+        "large": null,
+        "medium": null,
+        "square": null
+    },
+    "o:created": {
+        "@value": "2021-11-19T10:17:32+00:00",
+        "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+    },
+    "o:modified": {
+        "@value": "2021-11-19T10:18:27+00:00",
+        "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "msv:name": [
+        {
+            "type": "literal",
+            "property_id": 235,
+            "property_label": "name",
+            "is_public": true,
+            "@value": "guitar jackson js22"
+        }
+    ],
+    "msv:price": [
+        {
+            "type": "literal",
+            "property_id": 236,
+            "property_label": "price",
+            "is_public": true,
+            "@value": "230"
+        }
+    ],
+    "msv:image": [
+        {
+            "type": "literal",
+            "property_id": 237,
+            "property_label": "image",
+            "is_public": true,
+            "@value": "\/image\/guitarjs22.png"
+        }
+    ],
+    "msv:category": [
+        {
+            "type": "literal",
+            "property_id": 238,
+            "property_label": "category",
+            "is_public": true,
+            "@value": "electric guitar"
+        }
+    ],
+    "msv:brand": [
+        {
+            "type": "literal",
+            "property_id": 239,
+            "property_label": "brand",
+            "is_public": true,
+            "@value": "jackson"
+        }
+    ],
+    "msv:description": [
+        {
+            "type": "literal",
+            "property_id": 240,
+            "property_label": "description",
+            "is_public": true,
+            "@value": "bla bla blablbblablablablabla"
+        }
+    ],
+    "msv:product_id": [
+        {
+            "type": "literal",
+            "property_id": 234,
+            "property_label": "product_id",
+            "is_public": true,
+            "@value": "1"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "type": "literal",
+            "property_id": 1,
+            "property_label": "Title",
+            "is_public": true,
+            "@value": "Product 1"
+        }
+    ],
+    "dcterms:description": [
+        {
+            "type": "literal",
+            "property_id": 4,
+            "property_label": "Description",
+            "is_public": true,
+            "@value": "guitar jackson js22"
+        }
+    ]
+}

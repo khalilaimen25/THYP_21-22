@@ -1,0 +1,121 @@
+{
+    "@context": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api-context",
+    "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/items\/5",
+    "@type": [
+        "o:Item",
+        "msv:client"
+    ],
+    "o:id": 5,
+    "o:is_public": true,
+    "o:owner": {
+        "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/users\/1",
+        "o:id": 1
+    },
+    "o:resource_class": {
+        "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/resource_classes\/128",
+        "o:id": 128
+    },
+    "o:resource_template": {
+        "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/resource_templates\/2",
+        "o:id": 2
+    },
+    "o:thumbnail": null,
+    "o:title": "Client2",
+    "thumbnail_display_urls": {
+        "large": null,
+        "medium": null,
+        "square": null
+    },
+    "o:created": {
+        "@value": "2021-11-19T10:28:16+00:00",
+        "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+    },
+    "o:modified": {
+        "@value": "2021-11-19T10:28:16+00:00",
+        "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "msv:firstname": [
+        {
+            "type": "literal",
+            "property_id": 227,
+            "property_label": "firstname",
+            "is_public": true,
+            "@value": "Achat"
+        }
+    ],
+    "msv:lastname": [
+        {
+            "type": "literal",
+            "property_id": 228,
+            "property_label": "lastname",
+            "is_public": true,
+            "@value": "Asalas"
+        }
+    ],
+    "msv:username": [
+        {
+            "type": "literal",
+            "property_id": 229,
+            "property_label": "username",
+            "is_public": true,
+            "@value": "asalasachat"
+        }
+    ],
+    "msv:email": [
+        {
+            "type": "literal",
+            "property_id": 230,
+            "property_label": "email",
+            "is_public": true,
+            "@value": "achat@gmail.com"
+        }
+    ],
+    "msv:password": [
+        {
+            "type": "literal",
+            "property_id": 231,
+            "property_label": "password",
+            "is_public": true,
+            "@value": "pass123"
+        }
+    ],
+    "msv:phone": [
+        {
+            "type": "literal",
+            "property_id": 232,
+            "property_label": "phone",
+            "is_public": true,
+            "@value": "0353454366"
+        }
+    ],
+    "msv:address": [
+        {
+            "type": "literal",
+            "property_id": 233,
+            "property_label": "address",
+            "is_public": true,
+            "@value": "blablablablablablabla"
+        }
+    ],
+    "msv:user_id": [
+        {
+            "type": "literal",
+            "property_id": 226,
+            "property_label": "user_id",
+            "is_public": true,
+            "@value": "2"
+        }
+    ],
+    "dcterms:title": [
+        {
+            "type": "literal",
+            "property_id": 1,
+            "property_label": "Title",
+            "is_public": true,
+            "@value": "Client2"
+        }
+    ]
+}

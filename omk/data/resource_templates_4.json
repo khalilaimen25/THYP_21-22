@@ -1,0 +1,63 @@
+{
+    "@context": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api-context",
+    "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/resource_templates\/4",
+    "@type": "o:ResourceTemplate",
+    "o:id": 4,
+    "o:label": "Cart",
+    "o:owner": {
+        "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/users\/1",
+        "o:id": 1
+    },
+    "o:resource_class": {
+        "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/resource_classes\/130",
+        "o:id": 130
+    },
+    "o:title_property": null,
+    "o:description_property": null,
+    "o:resource_template_property": [
+        {
+            "o:property": {
+                "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/properties\/226",
+                "o:id": 226
+            },
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:data_type": [],
+            "o:is_required": false,
+            "o:is_private": false
+        },
+        {
+            "o:property": {
+                "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/properties\/234",
+                "o:id": 234
+            },
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:data_type": [],
+            "o:is_required": false,
+            "o:is_private": false
+        },
+        {
+            "o:property": {
+                "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/properties\/241",
+                "o:id": 241
+            },
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:data_type": [],
+            "o:is_required": false,
+            "o:is_private": false
+        },
+        {
+            "o:property": {
+                "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/properties\/236",
+                "o:id": 236
+            },
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:data_type": [],
+            "o:is_required": false,
+            "o:is_private": false
+        }
+    ]
+}

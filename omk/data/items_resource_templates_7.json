@@ -1,0 +1,77 @@
+[
+    {
+        "@context": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api-context",
+        "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/items\/4",
+        "@type": [
+            "o:Item",
+            "msv:wish_list"
+        ],
+        "o:id": 4,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/users\/1",
+            "o:id": 1
+        },
+        "o:resource_class": {
+            "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/resource_classes\/132",
+            "o:id": 132
+        },
+        "o:resource_template": {
+            "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/resource_templates\/7",
+            "o:id": 7
+        },
+        "o:thumbnail": null,
+        "o:title": "Wishlist 1",
+        "thumbnail_display_urls": {
+            "large": null,
+            "medium": null,
+            "square": null
+        },
+        "o:created": {
+            "@value": "2021-11-19T10:22:26+00:00",
+            "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2021-11-21T09:40:30+00:00",
+            "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+        },
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "msv:user_id": [
+            {
+                "type": "resource",
+                "property_id": 226,
+                "property_label": "user_id",
+                "is_public": true,
+                "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/items\/1",
+                "value_resource_id": 1,
+                "value_resource_name": "items",
+                "url": null,
+                "display_title": "Client 1"
+            }
+        ],
+        "msv:product_id": [
+            {
+                "type": "resource",
+                "property_id": 234,
+                "property_label": "product_id",
+                "is_public": true,
+                "@id": "http:\/\/localhost\/2THYP\/LDW\/omeka\/api\/items\/2",
+                "value_resource_id": 2,
+                "value_resource_name": "items",
+                "url": null,
+                "display_title": "Product 1"
+            }
+        ],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Wishlist 1"
+            }
+        ]
+    }
+]
