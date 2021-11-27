@@ -1,6 +1,6 @@
 ## API EX1 index.html
 - le trombinoscope ex1 : <https://khalilaimen25.github.io/THYP_21-22/ex1/index.html>
-- récapitulaitif omk : <khalilaimen25.github.io/THYP_21-22/omk/index.html>
+- récapitulaitif omk : <https://khalilaimen25.github.io/THYP_21-22/omk/index.html>
 ## API des items Omeka S
 
 - Client 1 <http://localhost/2THYP/LDW/omeka/api/items/1>
